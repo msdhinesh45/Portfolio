@@ -42,7 +42,11 @@ const Hero = () => {
                                 a passionate MERN Stack developer and an M.Sc Computer Science student.
                                 I enjoy building full-stack web applications with modern technologies.
                             </p>
-                            <Button />
+                            <Button  
+                            className="md:w-80 md:h-16 w-60 h-12"
+                            id="button"
+                            text="See my Work" 
+                            />
                     </div>
 
                 </header>
