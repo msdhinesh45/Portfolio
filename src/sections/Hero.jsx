@@ -38,9 +38,8 @@ const Hero = () => {
                             <h1>that Deliver Results</h1>
                         </div>
                         <p className='text-white-50 md:text-xl relative z-10 pointer-events-none:'>
-                                I'm Dhinesh Kumar,
-                                a passionate MERN Stack developer and an M.Sc Computer Science student.
-                                I enjoy building full-stack web applications with modern technologies.
+                                I'm Dhinesh Kumar, a passionate MERN Stack developer and an <br /> M.Sc Computer Science student. <br />
+                                I enjoy building full-stack web applications  <br /> with modern technologies.
                             </p>
                             <Button  
                             className="md:w-80 md:h-16 w-60 h-12"
@@ -50,6 +49,11 @@ const Hero = () => {
                     </div>
 
                 </header>
+
+                {/* Right Side Design */}
+
+
+
             </div>
         </section>
     )
