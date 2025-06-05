@@ -3,6 +3,7 @@ import { OrbitControls } from '@react-three/drei'
 import { Canvas } from '@react-three/fiber'
 import React from 'react'
 import { useMediaQuery } from 'react-responsive';
+import { Room } from './Room';
 // import { AmbientLight } from 'three/src/Three.Core.js'
 
 const HeroExperience = () => {
@@ -21,10 +22,7 @@ const HeroExperience = () => {
     minPolarAngle={Math.PI/5}
     maxPolarAngle={Math.PI/2}
     />
-    <mesh>
-        <boxGeometry args={[1,1,1]}/>
-        <meshStandardMaterial color="teal"/>
-    </mesh>
+    <Room />
    </Canvas>
   )
 }
