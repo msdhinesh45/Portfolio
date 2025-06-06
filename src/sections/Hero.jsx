@@ -40,7 +40,7 @@ const Hero = () => {
                         </div>
                         <p className='text-white-50 md:text-xl relative z-10 pointer-events-none:'>
                                 I'm Dhinesh Kumar, a passionate MERN Stack developer and an <br /> M.Sc Computer Science student. <br />
-                                I enjoy building full-stack web applications  <br /> with modern technologies.
+                                {/* I enjoy building full-stack web applications  <br /> with modern technologies. */}
                             </p>
                             <Button  
                             className="md:w-80 md:h-16 w-60 h-12"
