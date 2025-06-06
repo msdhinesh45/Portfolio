@@ -9,13 +9,13 @@ const Hero = () => {
     useGSAP(()=>{
         gsap.fromTo('.hero-text h1',
             {
-                y:50,
+                rotateY:50,
                 opacity:0,
             },{
-                y:0,
+                rotateY:0,
                 opacity:1,
-                stagger:1.5,
-                duration:4,
+                stagger:1.7,
+                duration:3,
                 ease:'power2.inOut'
             }
         )    })
