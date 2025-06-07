@@ -22,7 +22,7 @@ const counterItems = [
   { value: 4, suffix: "+", label: "Months of Experience" },
   { value: 50, suffix: "+", label: "Leet Problems" },
   { value: 40, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 400, suffix: "+", label: "Git Commits" },
 ];
 
 const logoIconsList = [
