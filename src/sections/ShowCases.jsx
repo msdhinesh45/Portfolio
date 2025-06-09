@@ -18,6 +18,15 @@ const ShowCases = () => {
             </div>
 
             {/* Right */}
+
+            <div className="project-list-wrapper overflow-hidden">
+                <div className="project">
+                    <div className="image-wrapper bg-[#ffefdb]">
+                    <img src="/images/project2.png" alt="Admin dashboard" />
+                    </div>
+                    <h2>Admin dashboard</h2>
+                </div>
+            </div>
             </div>
         </div>
     </div>
