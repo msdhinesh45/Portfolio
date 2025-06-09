@@ -11,8 +11,13 @@ const ShowCases = () => {
                 <div className="image-wrapper">
                     <img src="/images/project1.png" alt="ryde" />
                 </div>
+                <div className="text-content">
+                    <h2>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Suscipit possimus impedit sed quasi assume.</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quibusdam earum dolorem quae vitae sit voluptas quis atque mollitia, porro ratione.</p>
+                </div>
             </div>
-            
+
+            {/* Right */}
             </div>
         </div>
     </div>
