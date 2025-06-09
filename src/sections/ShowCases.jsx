@@ -26,6 +26,12 @@ const ShowCases = () => {
                     </div>
                     <h2>Admin dashboard</h2>
                 </div>
+                <div className="project">
+                    <div className="image-wrapper bg-[#ffe7eb]">
+                    <img src="/images/project3.png" alt="Admin dashboard" />
+                    </div>
+                    <h2>startupb show case</h2>
+                </div>
             </div>
             </div>
         </div>
