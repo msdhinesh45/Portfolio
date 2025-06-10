@@ -5,6 +5,7 @@ import { useGSAP } from '@gsap/react';
 
 gsap.registerPlugin(ScrollTrigger);
 
+
 const ShowCases = () => {
     const sectionRef = useRef(null);
     const project1Ref = useRef(null);
