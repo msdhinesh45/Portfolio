@@ -16,7 +16,6 @@ const ShowCases = () => {
 
 const projects = [project1Ref.current,project2Ref.current,project3Ref.current];
 
-useGSAP(()=>{})
 projects.forEach((card,index)=>{
     gsap.fromTo(
         card,
