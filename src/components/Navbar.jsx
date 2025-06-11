@@ -1,4 +1,5 @@
 import React from 'react'
+import { navLinks } from '../constants'
 
 const Navbar = () => {
   return (
@@ -11,7 +12,16 @@ const Navbar = () => {
             
 
     <nav className="desktop">
-
+    <ul>
+        {navLinks.map(({link,name})=>(
+            <li key={name} className='group'>
+                <a href={link}>
+                    <span>{name}</span>
+                    <span className="underline"></span>
+                </a>
+            </li>
+        ))}
+    </ul>
     </nav>
 
     {/* Contact button */}
