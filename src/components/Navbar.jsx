@@ -1,9 +1,23 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { navLinks } from '../constants'
 
 const Navbar = () => {
+
+    const [scrolled,setScrolled] = useState(false);
+
+    useEffect(()=>{
+        const handleScroll = ()=>{
+            const isScrolled = window.scrollY>10;
+            setScrolled(true);
+        }
+
+        window.addEventListener("scroll",handleScroll);
+
+        return ()=>window.removeEventListener("scroll",handleScroll);
+    },[])
+
   return (
-    <header className='navbar'>
+    <header className={`navbar ${scrolled ? 'scrolled' : 'not-scrolled'}`}>
         <div className="inner">
 
 {/* Name */}
