@@ -2,7 +2,7 @@ import React from 'react'
 
 const LogoSection = () => {
   return (
-    <div>LogoSection</div>
+    <div></div>
   )
 }
 
