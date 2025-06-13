@@ -26,17 +26,17 @@ const counterItems = [
 ];
 
 const logoIconsList = [
-  { imgPath: "/images/logos/company-logo-1.png" },
-  { imgPath: "/images/logos/company-logo-2.png" },
-  { imgPath: "/images/logos/company-logo-3.png" },
-  { imgPath: "/images/logos/company-logo-4.png" },
-  { imgPath: "/images/logos/company-logo-5.png" },
-  { imgPath: "/images/logos/company-logo-6.png" },
-  { imgPath: "/images/logos/company-logo-7.png" },
-  { imgPath: "/images/logos/company-logo-8.png" },
-  { imgPath: "/images/logos/company-logo-9.png" },
-  { imgPath: "/images/logos/company-logo-10.png" },
-  { imgPath: "/images/logos/company-logo-11.png" },
+  { imgPath: "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582748_1280.png" },
+  { imgPath: "https://logospng.org/download/css-3/logo-css-3-2048.png" },
+  { imgPath: "https://blog.getbootstrap.com/assets/brand/bootstrap-logo-shadow.png" },
+  { imgPath: "https://static.vecteezy.com/system/resources/previews/027/127/560/original/javascript-logo-javascript-icon-transparent-free-png.png" },
+  { imgPath: "https://images.icon-icons.com/2699/PNG/512/reactjs_logo_icon_168875.png" },
+  { imgPath: "https://cdn.freebiesupply.com/logos/large/2x/nodejs-icon-logo-png-transparent.png" },
+  { imgPath: "https://logowik.com/content/uploads/images/express-js1720895493.logowik.com.webp" },
+  { imgPath: "https://pluspng.com/img-png/logo-mongodb-png-mongodb-logo-png-400.png" },
+  { imgPath: "https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png" },
+  { imgPath: "https://pluspng.com/img-png/firebase-logo-png-firebase-google-icon-512x512.png" },
+  { imgPath: "https://pngimg.com/uploads/github/github_PNG28.png" },
 ];
 
 const abilities = [
