@@ -43,17 +43,17 @@ const abilities = [
   {
     imgPath: "/images/seo.png",
     title: "Commitment to Quality",
-    desc: "Ensuring excellence in every task executed.",
+    desc: "I focus on delivering high-standard results with attention to detail.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Effective Communication",
-    desc: "Always clear and honest updates during the process.",
+    title: "Clear Communication",
+    desc: "I share regular updates and make sure everything is well understood.",
   },
   {
     imgPath: "/images/time.png",
-    title: "Timely Project Completion",
-    desc: "Meeting deadlines without compromising quality.",
+    title: "Punctual Delivery",
+    desc: "I complete tasks on time without affecting the quality of work.",
   },
 ];
 
