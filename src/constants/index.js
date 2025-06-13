@@ -42,17 +42,17 @@ const logoIconsList = [
 const abilities = [
   {
     imgPath: "/images/seo.png",
-    title: "Quality Focus",
+    title: "Commitment to Quality",
     desc: "Ensuring excellence in every task executed.",
   },
   {
     imgPath: "/images/chat.png",
-    title: "Reliable Communication",
+    title: "Effective Communication",
     desc: "Always clear and honest updates during the process.",
   },
   {
     imgPath: "/images/time.png",
-    title: "On-Time Delivery",
+    title: "Timely Project Completion",
     desc: "Meeting deadlines without compromising quality.",
   },
 ];
