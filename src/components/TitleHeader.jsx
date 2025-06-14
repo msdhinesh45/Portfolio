@@ -1,8 +1,12 @@
 import React from 'react'
 
-const TitleHeader = () => {
+const TitleHeader = ({title,sub}) => {
   return (
-    <div>TitleHeader</div>
+    <div className='flex flex-col items-center gap-5'>
+        <div className="hero-badge">
+            <p>{sub}</p>
+        </div>
+    </div>
   )
 }
 
