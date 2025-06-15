@@ -13,6 +13,7 @@ const Experience = () => {
               <div key={card.title} className="exp-card-wrapper">
                 {card.title}
               </div>
+
             ))}
           </div>
         </div>
