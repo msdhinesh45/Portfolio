@@ -1,6 +1,14 @@
-import React from 'react'
+import React, { useRef } from 'react'
 
 const GlowCard = ({card,children}) => {
+
+  const cardRefs = useRef([]);
+
+  const handleMouseMove = (index)=>(e)=>{
+    const card = cardRefs.current[index];
+    if(card) return;
+  }
+
   return (
     <div className="card card-border timeline-card rounded-xl p-10 cursor-pointer">
         <div className="glow"></div>
@@ -12,8 +20,9 @@ const GlowCard = ({card,children}) => {
         <div className="mb-5">
           <p className='text-white-50 text-lg'>{card.review}</p>
         </div>
+        {children}
     </div>
   )
 }
 
-export default GlowCard
+export default GlowCard;
