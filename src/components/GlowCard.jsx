@@ -6,7 +6,7 @@ const GlowCard = ({card,children,index}) => {
 
   const handleMouseMove = (index)=>(e)=>{
     const card = cardRefs.current[index];
-    if(card) return;
+    if(!card) return;
 
     const rect = card.getBoundingClientRect();
     const mouseX = e.clientX - rect.left - rect.width/2;
