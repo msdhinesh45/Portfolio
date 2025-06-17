@@ -35,6 +35,7 @@ const GlowCard = ({card,children,index}) => {
         {children}
     </div>
   )
+  
 }
 
 export default GlowCard;
