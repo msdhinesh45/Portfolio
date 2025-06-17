@@ -13,6 +13,7 @@ const GlowCard = ({card,children,index}) => {
     const mouseY = e.clientY - rect.top - rect.height/2;
 
 
+    
     let angle = Math.atan2(mouseY,mouseX) * (180/Math.PI);
 
     angle = (angle + 360)%360;
