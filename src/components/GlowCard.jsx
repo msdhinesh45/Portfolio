@@ -13,13 +13,14 @@ const GlowCard = ({card,children,index}) => {
     const mouseY = e.clientY - rect.top - rect.height/2;
 
 
-    
+
     let angle = Math.atan2(mouseY,mouseX) * (180/Math.PI);
 
     angle = (angle + 360)%360;
 
     card.style.setProperty("--start", angle+60);
   }
+  
 
   return (
     <div ref={(el)=>(cardRefs.current[index]=el)} onMouseMove={handleMouseMove(index)} className="card card-border timeline-card rounded-xl p-10 cursor-pointer">
