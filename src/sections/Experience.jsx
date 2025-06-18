@@ -19,6 +19,18 @@ const Experience = () => {
                   </div>
                 </GlowCard>
                 </div>
+
+              {/* Experience Timeline Session */}
+
+                <div className="xl:w-4/6">
+                  <div className="flex items-start">
+                    <div className="timeline-wrapper">
+                      <div className="timeline gradient-line w-1 h-full">
+
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
 
             ))}
