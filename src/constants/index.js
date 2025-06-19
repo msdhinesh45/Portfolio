@@ -103,7 +103,7 @@ const expCards = [
     review:
       "Dhinesh excels at transforming complex data into clear, insightful visualizations using Excel, enabling better business decisions.",
     imgPath: "/images/excel-exp.png",
-    logoPath: "/images/ex-logo.png",
+    logoPath: "../../public/images/ex-logo.png",
     title: "Excel Data Analyst & Visualization Specialist",
     date: "May 2021 - July 2021",
     responsibilities: [
