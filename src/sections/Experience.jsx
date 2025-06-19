@@ -32,6 +32,9 @@ const Experience = () => {
               <div className="timeline-logo">
                 <img src={card.logoPath} alt="logo" />
               </div>
+              <div>
+                <h1>{card.title}</h1>
+              </div>
               </div>
                   </div>
                 </div>
