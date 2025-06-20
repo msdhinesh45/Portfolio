@@ -2,6 +2,9 @@ import React from 'react'
 import TitleHeader from '../components/TitleHeader'
 import {expCards} from '../constants/index'
 import GlowCard from '../components/GlowCard'
+import gsap from 'gsap';
+import {useGSAP} from '@gsap/react'
+import { ScrollTrigger } from 'gsap/ScrollTrigger'; 
 const Experience = () => {
   return (
     <section id='experience' className='w-full md:mt-40 mt-20 section-padding xl:px-0'>
