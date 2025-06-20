@@ -5,6 +5,7 @@ import GlowCard from '../components/GlowCard'
 import gsap from 'gsap';
 import {useGSAP} from '@gsap/react'
 
+
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 
