@@ -25,7 +25,15 @@ const Experience = () => {
       })
     })
 
-    
+    gsap.to('.timeline',{
+      transformOrigin:'bottom bottom',
+      ease:'power1.inOut',
+      scrollTrigger:{
+        trigger:'.timeline',
+        start:'top center',
+        end:'70% center'
+      }
+    })
   },[]);
 
   return (
