@@ -7,7 +7,7 @@ const TechStack = () => {
         <div>
             <TitleHeader 
             title="My Development Toolkit"
-            sub="Fueling innovation through code and creativity."
+            sub="🤝 The skills I bring to the table."
             />
         </div>
     </div>
