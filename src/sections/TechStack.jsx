@@ -1,6 +1,6 @@
 import React from 'react'
 import TitleHeader from '../components/TitleHeader'
-
+import {techStackIcons} from '../constants/index'
 const TechStack = () => {
   return (
     <div id='skills' className='flex-center section-padding'>
@@ -10,7 +10,11 @@ const TechStack = () => {
             sub="Fueling innovation through code and creativity."
             />
         <div className="tech-grid">
-          
+          {techStackIcons.map((icon)=>(
+            <div key={icon.name}>
+              {icon.name}              
+              </div>
+          ))}
         </div>
 
         </div>
