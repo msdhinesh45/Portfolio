@@ -7,7 +7,7 @@ const TechStack = () => {
         <div className='w-full h-full md:px-10 px-5'>
             <TitleHeader 
             title="My Development Toolkit"
-            sub="Fueling innovation through code and creativity."
+            sub="💻 Fueling innovation through code and creativity."
             />
         <div className="tech-grid">
           {techStackIcons.map((icon)=>(
