@@ -11,7 +11,7 @@ const TechStack = () => {
             />
         <div className="tech-grid">
           {techStackIcons.map((icon)=>(
-            <div key={icon.name}>
+            <div key={icon.name} className='card-border tech-card overflow-hidden group xl:rounded-full rounded-lg'>
               {icon.name}              
               </div>
           ))}
