@@ -20,6 +20,7 @@ const TechStack = () => {
               </div>              
               </div>
               
+              
           ))}
         </div>
 
