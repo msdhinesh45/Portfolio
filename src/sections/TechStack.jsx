@@ -16,11 +16,12 @@ const TechStack = () => {
               <div className="tech-card-content">
                 <div className="tech-icon-wrapper">
                   
+                  
                 </div>
               </div>              
               </div>
               
-              
+
           ))}
         </div>
 
