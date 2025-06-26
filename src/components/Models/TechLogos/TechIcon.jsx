@@ -1,8 +1,10 @@
+import { useGLTF } from '@react-three/drei'
 import React from 'react'
 
-const TechIcon = () => {
+const TechIcon = ({model}) => {
+ const scene = useGLTF(model.modelPath)
   return (
-    <div>TechIcon</div>
+    <div></div>
   )
 }
 
