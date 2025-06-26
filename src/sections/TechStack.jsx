@@ -17,7 +17,7 @@ const TechStack = () => {
               <div className="tech-card-content">
                 <div className="tech-icon-wrapper">
                   
-                  <TechIcon />
+                  <TechIcon model={icon}/>
                 </div>
               </div>              
               </div>
