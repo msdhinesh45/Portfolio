@@ -19,6 +19,10 @@ const TechStack = () => {
                   
                   <TechIcon model={icon}/>
                 </div>
+
+                <div className="padding-x w-full">
+                 <p> {icon.name}</p>
+                </div>
               </div>              
               </div>
               
