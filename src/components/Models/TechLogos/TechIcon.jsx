@@ -13,7 +13,7 @@ const TechIcon = ({model}) => {
         <group scale={model.scale} rotation={model.rotation} >
           <primitive object={scene.scene} />
         </group >
-      </Float>
+      </Float >
     </Canvas>
   )
 }
