@@ -14,7 +14,7 @@ const TechIcon = ({model}) => {
           <primitive object={scene.scene} />
         </group >
       </Float >
-    </Canvas>
+    </Canvas >
   )
 }
 
