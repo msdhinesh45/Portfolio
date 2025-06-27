@@ -11,7 +11,7 @@ const TechIcon = ({model}) => {
 
       <Float speed={5.5} rotationIntensity={1.7} floatIntensity={1.5} >
         <group scale={model.scale} rotation={model.rotation} >
-          <primitive object={scene.scene}/>
+          <primitive object={scene.scene} />
         </group>
       </Float>
     </Canvas>
