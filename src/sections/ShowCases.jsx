@@ -12,22 +12,23 @@ const AppShowcase = () => {
   const ycDirectoryRef = useRef(null);
 
   useGSAP(() => {
-    // Fade in the whole section on load
+    // Animation for the main section
     gsap.fromTo(
       sectionRef.current,
       { opacity: 0 },
       { opacity: 1, duration: 1.5 }
     );
 
-    // Scroll-triggered animations for each card
+    // Animations for each app showcase
     const cards = [rydeRef.current, libraryRef.current, ycDirectoryRef.current];
 
     cards.forEach((card, index) => {
-      if (!card) return;
-
       gsap.fromTo(
         card,
-        { y: 50, opacity: 0 },
+        {
+          y: 50,
+          opacity: 0,
+        },
         {
           y: 0,
           opacity: 1,
@@ -35,14 +36,13 @@ const AppShowcase = () => {
           delay: 0.3 * (index + 1),
           scrollTrigger: {
             trigger: card,
-            start: "top 90%",
-            toggleActions: "play none none none",
-
+            start: "top bottom-=100",
           },
         }
       );
     });
-  }, { scope: sectionRef });
+  }, []);
+
   return (
     <div id="work" ref={sectionRef} className="app-showcase">
       <div className="w-full">
