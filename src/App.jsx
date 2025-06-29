@@ -5,7 +5,7 @@ import FeatureSections from "./sections/FeatureSections";
 import Hero from "./sections/Hero";
 import ShowCases from "./sections/ShowCases";
 import TechStack from "./sections/TechStack";
-import Testimonal from "./sections/Testimonal";
+import Testimonal from "./sections/Testimonial";
 
 const App = () => {
   return (
