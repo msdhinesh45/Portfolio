@@ -189,13 +189,13 @@ const testimonials = [
       "Working with Dhinesh was a great experience. He developed a modern, responsive React.js frontend that improved our website's usability and performance.",
     imgPath: "/images/myCli-2.png",
   },
-  // {
-  //   name: "Ganesan K",
-  //   mentions: "@ganeshan",
-  //   review:
-  //     "Dhinesh's professionalism and dedication stood out throughout the project. His expertise in React and data visualization helped elevate our platform to the next level.",
-  //   imgPath: "/images/client2.png",
-  // },
+  {
+    name: "Ganesan K",
+    mentions: "@ganeshan",
+    review:
+      "Dhinesh's professionalism and dedication stood out throughout the project. His expertise in React and data visualization helped elevate our platform to the next level.",
+    imgPath: "/images/client2.png",
+  },
   {
     name: "Vaishnavi R",
     mentions: "@vaish333",
