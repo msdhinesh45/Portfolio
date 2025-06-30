@@ -14,10 +14,11 @@ const Testimonal = () => {
           {testimonials.map((testimonial)=>(
           <GlowCard card={testimonial}>
               <div className="flex items-center gap-3">
-                <p>{testimonial.review}</p>
+                
               </div>
           </GlowCard>
           ))}
+          
         </div>
       </div>
     </section>
