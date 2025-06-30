@@ -1,5 +1,6 @@
 import React from 'react'
 import TitleHeader from '../components/TitleHeader'
+import { testimonials } from '../constants'
 
 const Testimonal = () => {
   return (
@@ -7,6 +8,13 @@ const Testimonal = () => {
       <div className="w-full h-full md:px-10 px-5">
         <TitleHeader title="What humans Say About Me?"
         sub="💥 Friends and Teachers feedBack"/>
+
+        <div className="lg:columns-3 md:columns-2 columns-1 mt-16">
+
+          {testimonials.map((testimonial)=>(
+            <p>{testimonial.review}</p>
+          ))}
+        </div>
       </div>
     </section>
   )
