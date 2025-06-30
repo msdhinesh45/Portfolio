@@ -23,8 +23,8 @@ const Testimonal = () => {
         </div>
       </div>
     </section>
-    
+
   )
 }
 
-export default Testimonal
+export default Testimonal;
