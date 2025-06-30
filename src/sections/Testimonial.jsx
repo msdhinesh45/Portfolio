@@ -1,7 +1,7 @@
 import React from 'react'
 import TitleHeader from '../components/TitleHeader'
 import { testimonials } from '../constants'
-
+import GlowCard from '../components/GlowCard'
 const Testimonal = () => {
   return (
     <section id="testimonials" className="flex-center section-padding">
@@ -12,7 +12,11 @@ const Testimonal = () => {
         <div className="lg:columns-3 md:columns-2 columns-1 mt-16">
 
           {testimonials.map((testimonial)=>(
-            <p>{testimonial.review}</p>
+          <GlowCard>
+              <div className="flex items-center gap-3">
+                <p>{testimonial.review}</p>
+              </div>
+          </GlowCard>
           ))}
         </div>
       </div>
