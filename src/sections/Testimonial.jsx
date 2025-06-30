@@ -17,8 +17,9 @@ const Testimonal = () => {
                 
               </div>
           </GlowCard>
-          ))}
           
+          ))}
+
         </div>
       </div>
     </section>
