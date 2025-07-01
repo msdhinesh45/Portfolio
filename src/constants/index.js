@@ -177,45 +177,45 @@ const expLogos = [
 const testimonials = [
   {
     name: "DhanaSekar K",
-    mentions: "@DhanaSekar",
+    mentions: "@DhanaSekar99",
     review:
       "Dhinesh transformed our complex data into clear, actionable insights using Excel visualizations. His attention to detail helped our team make better decisions quickly.",
-    imgPath: "/images/myCli-1.png",
+  imgPath: "/images/client1.png",
   },
   {
-    name: "Prabhu Hari",
+    name: "Prabhu Hari S",
     mentions: "@prabhu666",
     review:
       "Working with Dhinesh was a great experience. He developed a modern, responsive React.js frontend that improved our website's usability and performance.",
-    imgPath: "/images/myCli-2.png",
-  },
-  {
-    name: "Ganesan K",
-    mentions: "@ganeshan",
-    review:
-      "Dhinesh's professionalism and dedication stood out throughout the project. His expertise in React and data visualization helped elevate our platform to the next level.",
     imgPath: "/images/client2.png",
   },
   {
-    name: "Vaishnavi R",
-    mentions: "@vaish333",
+    name: "Ganesan K",
+    mentions: "@ganeshan11",
     review:
-      "Dhinesh revamped our outdated website with clean, efficient React code, making the site modern and easy to navigate. Excellent work and communication.",
-    imgPath: "/images/myCli-3.jpg",
+      "Dhinesh's professionalism and dedication stood out throughout the project. His expertise in React and data visualization helped elevate our platform to the next level.",
+    imgPath: "/images/client3.png",
   },
   {
-    name: "Nisha K",
-    mentions: "@nisha",
+    name: "Vishnu R",
+    mentions: "@vishnu333",
+    review:
+      "Dhinesh revamped our outdated website with clean, efficient React code, making the site modern and easy to navigate. Excellent work and communication.",
+    imgPath: "/images/client4.png",
+  },
+  {
+    name: "Aravind S",
+    mentions: "@aravind07",
     review:
       "Dhinesh delivered scalable and robust frontend solutions with React. Our user engagement increased significantly after his work. Highly recommended for web projects.",
-    imgPath: "/images/myCli-4.png",
+    imgPath: "/images/client5.png",
   },
   {
     name: "Rohit G",
-    mentions: "@rohit",
+    mentions: "@rohit684",
     review:
       "Dhinesh understood our project needs perfectly and combined his Excel and React skills to deliver a seamless experience that exceeded expectations.",
-    imgPath: "/images/myCli-5.png",
+    imgPath: "/images/client6.png",
   },
 ];
 
