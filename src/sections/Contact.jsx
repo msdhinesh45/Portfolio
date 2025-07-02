@@ -8,7 +8,11 @@ const Contact = () => {
     <TitleHeader 
     title="Get in Touch with me"
     sub="Contact Information"
-    />        
+    />      
+    <div className="mt-16">
+      <p className="text-center">Feel free to reach out for collaborations, questtions or just say to "Hello!"</p>
+      <p className="text-center mt-4"></p>
+      </div>  
       </div>
     </section>
   )
