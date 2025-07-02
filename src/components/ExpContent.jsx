@@ -13,4 +13,4 @@ const ExpContent = ({ expContent }) => {
   );
 };
 
-export default ExpContent;
+export default ExpContent
