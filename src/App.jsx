@@ -3,6 +3,7 @@ import Navbar from "./components/Navbar";
 import Contact from "./sections/Contact";
 import Experience from "./sections/Experience";
 import FeatureSections from "./sections/FeatureSections";
+import Footer from "./sections/Footer";
 import Hero from "./sections/Hero";
 import ShowCases from "./sections/ShowCases";
 import TechStack from "./sections/TechStack";
@@ -20,6 +21,7 @@ const App = () => {
         <TechStack/>
         <Testimonal/>
         <Contact/>
+        <Footer/>
     </>
   )
 }
