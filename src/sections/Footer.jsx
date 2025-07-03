@@ -1,8 +1,20 @@
 import React from 'react'
-
+import {socialImgs} from '../constants/index'
 const Footer = () => {
   return (
-    <div>Footer</div>
+    <footer className="footer">
+        <div className="footer-container">
+            <div className="flex flex-col justify-center">
+                <a href="#">Visit my Portfolio</a></div>
+        </div>
+        <div className="socials">
+            {socialImgs.map((img)=>(
+                <a>
+                    <img src={img.imgPath} alt="" />
+                </a>
+            ))}
+        </div>
+    </footer>
   )
 }
 
