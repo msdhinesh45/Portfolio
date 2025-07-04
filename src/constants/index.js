@@ -221,7 +221,7 @@ const testimonials = [
 
 const socialImgs = [{ 
   name: "insta", 
-  url:"https://instagram.com/_ms_dhinesh_",
+  url:"https://www.instagram.com/_ms_dhinesh_/",
   imgPath: "/images/insta.png" },
   { name: "linkedin",
     url:"https://linkedin.com/in/dhineshkumar45",
