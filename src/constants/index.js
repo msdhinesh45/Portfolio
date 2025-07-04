@@ -224,7 +224,7 @@ const socialImgs = [{
   url:"https://instagram.com/_ms_dhinesh_",
   imgPath: "/images/insta.png" },
   { name: "linkedin",
-    url:"https://linkedin.com/in/dhineshkumar45"
+    url:"https://linkedin.com/in/dhineshkumar45",
     imgPath: "/images/linkedin.png" },
 ];
 
